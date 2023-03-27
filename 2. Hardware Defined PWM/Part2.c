@@ -1,8 +1,8 @@
 /*
- * HardwarePWMExample.c
+ *  Lab4Part2.c
  *
- *  Created on: Feb 18, 2023
- *      Author: Russell Trafford
+ *  Created on: Mar 27, 2023
+ *  Author: Jaric Abadinas
  *
  *      This example configures P6.0 as a PWM output as controlled by TimerB3.
  *
@@ -85,6 +85,10 @@ __interrupt void Timer1_B0_ISR(void)
 {
 
 }
+
+
+
+
 
 
 
