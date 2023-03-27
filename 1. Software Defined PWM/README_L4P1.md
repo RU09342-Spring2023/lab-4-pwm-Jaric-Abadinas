@@ -6,6 +6,7 @@ Generate a 1 kHz PWM signal with a duty cyle between 0% and 100%. When processor
 
 ## Prototypes and Main Function:
 This section consisted of the prototypes used along with the main function of the code.
+{
 #include <msp430.h>
 
 
@@ -27,4 +28,5 @@ int main(void)
     PM5CTL0 &= ~LOCKLPM5;                     // turn on GPIO
     __bis_SR_register(LPM3_bits | GIE);       // Enter LPM3 w/ interrupt
     __no_operation();
+}
 }
